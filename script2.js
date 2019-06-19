@@ -1,7 +1,11 @@
 'use strict';
- let a = 5;
-console.log(a);
-// let arr = ['груша', 'яблоко', 'слива'];
-// console.log(arr[0]);
-console.log(typeof(null));
-// Это для второго коммита
+ let num = 50;
+ while( num < 55) {
+     console.log(num);
+     num++;
+ }
+
+ do {
+     console.log(num);
+     num++;
+ } while( num < 65 );
